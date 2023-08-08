@@ -1,0 +1,27 @@
+.floating-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.floating-button {
+  width: 0px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #E6001F; /* Replace with your preferred color */
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+
+.floating-button-icon {
+    position: absolute;
+  width: 50%;
+  height: 50%;
+  right: 25%;
+  bottom: 26%;
+}

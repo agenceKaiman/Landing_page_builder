@@ -1,0 +1,46 @@
+.LogIn {
+    float: right;
+    width: 500px;
+    height: 420px;
+    margin-right: -700px;
+    margin-top: 300px;
+    background-color: #E8E8E8;
+    border-radius: 100px;
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+}
+
+.button {
+    background-color: grey;
+    width: 307px;
+    height: 50px;
+    color: white;
+}
+
+.h1 {
+    margin-right: 30px;
+}
+
+.rememberme p {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.rememberme input {
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.Forgot_Password {
+    margin-top: 16px;
+    margin-right: 60px;
+}

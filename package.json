@@ -1,0 +1,75 @@
+{
+  "name": "kaiman",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@chatscope/chat-ui-kit-react": "^1.10.1",
+    "@chatscope/chat-ui-kit-styles": "^1.4.0",
+    "@fvilers/disable-react-devtools": "^1.3.0",
+    "@silexlabs/grapesjs-fonts": "^1.0.12",
+    "@silexlabs/grapesjs-ui-suggest-classes": "^1.0.23",
+    "axios": "^1.4.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "bootstrap": "^5.3.0",
+    "firebase": "^10.1.0",
+    "grapesjs": "^0.21.2",
+    "grapesjs-accordion": "^1.0.10",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "grapesjs-blocks-bootstrap4": "^0.2.3",
+    "grapesjs-blocks-flexbox": "^1.0.1",
+    "grapesjs-custom-code": "^1.0.2",
+    "grapesjs-firestore": "^1.0.3",
+    "grapesjs-ga": "^1.0.2",
+    "grapesjs-navbar": "^1.0.2",
+    "grapesjs-parser-postcss": "^1.0.1",
+    "grapesjs-plugin-ckeditor": "^1.0.1",
+    "grapesjs-plugin-export": "^1.0.12",
+    "grapesjs-plugin-forms": "^2.0.6",
+    "grapesjs-plugin-toolbox": "^1.0.15",
+    "grapesjs-preset-webpage": "^1.0.2",
+    "grapesjs-style-bg": "^2.0.2",
+    "grapesjs-style-filter": "^1.0.2",
+    "grapesjs-style-gradient": "^3.0.1",
+    "grapesjs-typed": "^2.0.1",
+    "jquery": "^3.7.0",
+    "mdb-react-ui-kit": "^6.1.0",
+    "openai": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "react-simple-chatbot": "^0.6.1",
+    "universal-cookie": "^4.0.4",
+    "update": "^0.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "backend": "nodemon ./Backend/index.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.10",
+    "node-sass": "^7.0.3"
+  }
+}
